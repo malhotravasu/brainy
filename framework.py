@@ -97,7 +97,7 @@ class NN:
             ### END CODE HERE ###
             
             # Print the cost every 100 iterations
-            if print_cost and i % 1000 == 0:
+            if print_cost and i % 10 == 0:
                 print ("Cost after iteration %i: %f" %(i, cost))
 
     # GRADED FUNCTION: predict
